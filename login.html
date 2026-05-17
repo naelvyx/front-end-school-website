@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Login</title>
+    <style>
+           #head{
+            color: bro;
+            padding-top: 350px;
+            
+           }
+           body{
+            background-image: url(blackbapt.jpg), url(image.jpg);
+        
+            background-repeat: no-repeat;
+           background-size: 1970px;
+           }
+           ul{
+            list-style-type: none;
+            float: left;
+            
+           }
+           ul li{
+            display: inline-block;
+           }
+           ul li a{
+            text-decoration: none;
+            color: white;
+            padding: px 20px;
+            border: 1px solid white;
+            transition: 0.3s ease;
+           }
+           ul li a:hover{
+            background-color: grey;
+            color: black;
+           }
+           p{
+            text-align: center;
+            color: white;    
+           }
+           div{
+            padding-left: 10px;
+           }
+        </style>
+    </head>
+    <body>
+        <h1 id="head">Sign up</h1>
+        <div>
+         <form>
+            <label>
+            <p> <b>First name:<input type="text"  placeholder="Natnael"/><br/><br/>
+                Last name:<input type="text"  placeholder="Tilahun"/><br/><br/>
+                <head>      
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="120" required><br><br>
+ 
+                Email:<input type="email" placeholder="example@gmail.com"/><br/><br/>
+                Password:<input type="password" /><br/><br/>
+            </label>
+            Section:
+            <select>
+                <option name="A">A</option>
+                <option name="B" selected="B">B</option>
+                <option name="C">C</option>
+                <option name="C">D</option>
+            </select></p></b>
+            <br/><br/>
+            <label>
+             <a href="choose.html"><input type="button" value="Next"/> </a>
+             <input type="reset" value="reset"/>
+            </label>
+          </form>
+        </div>
+       
+        
+    </body>
+</html>
